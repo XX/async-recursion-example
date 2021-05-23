@@ -1,0 +1,9 @@
+[package]
+name = "async-recursion-example"
+version = "0.1.0"
+authors = ["Alexander XX <freecoder.xx@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+async-std = { version = "1.9", features = ["attributes"] }
+async-recursion = "0.3"
